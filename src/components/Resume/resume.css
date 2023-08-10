@@ -1,0 +1,32 @@
+.resume-section{
+    position: relative !important;
+    padding-top: 110px !important;
+    padding-bottom: 30px !important;
+    background-image: linear-gradient(
+        to bottom left,
+        rgba(17, 16, 16, 0.582),
+        rgba(12, 8, 24, 0.904)
+      ) !important;
+    color: white !important;
+}
+.resume{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.fork-btn{
+    font-size: 1.1em !important;
+    padding: 10px !important;
+}
+.fork-btn {
+    line-height: 1.4em !important;
+    background-color: #a24dd386 !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border: 0px !important;
+  }
+  
+.fork-btn:hover {
+    background-color: #934cce5e !important;
+    border-color: #934cce5e !important;
+}

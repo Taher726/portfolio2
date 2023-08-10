@@ -1,0 +1,45 @@
+.about-section{
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    background-image: linear-gradient(
+        to bottom left,
+        rgba(17, 16, 16, 0.582),
+        rgba(12, 8, 24, 0.904)
+      ) !important;
+    color: white !important;
+}
+.quote-card-view{
+    border: none !important;
+    color: white !important;
+    background-color: transparent !important;
+}
+.about-activity{
+    list-style: none !important;
+    text-align: left !important;
+    padding-left: 1px !important;
+}
+.tech-icons{
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    border-radius: 5px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    display: table !important;
+    opacity: 0.93 !important;
+    transition: all 0.4s ease 0s !important;
+    overflow: hidden !important;
+}
+.tech-icons:hover{
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+@media (max-width: 767px) {
+    .tech-icons {
+      margin: 10px !important;
+    }
+}
